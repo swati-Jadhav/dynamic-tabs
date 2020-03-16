@@ -1,0 +1,25 @@
+#tab-container{
+    position: relative;
+    padding: 1rem;
+    margin: 1rem -15px 0;
+    border: solid #f7f7f9;
+    border-width: .2rem 0 0;
+}
+
+.nav-tabs > li > a{
+	cursor:pointer;
+}
+
+.nav-tabs li a span:hover {
+    color: red;
+	cursor:pointer;
+}
+
+a.nav-link.dropdown-toggle.fa.fa-plus {
+    border-bottom: 0px solid transparent !important;
+    padding: 12px;
+}
+
+.tab-content{
+    padding: 1em;
+}
